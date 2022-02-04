@@ -1,0 +1,49 @@
+/*styles.css
+
+index.html elements:
+	h1, a (links)
+	
+recipe elements:
+	img
+	p - desription
+	ordered list - ingredient list
+	unordered list - directions
+	headers, h1 and h3
+*/
+* {
+	text-align: center;/*not working*/
+}
+h1 {
+	color: #FF6C00;
+	font-family: papyrus, serif;
+}
+
+h3 {
+	font-family:fantasy;
+	font-variant: small-caps;
+	font-weight: bold;
+	background-color: #FF6C00;
+	background-attachment:fixed;
+}
+
+a {
+	font-family: monospace;
+}
+
+img {
+	width: auto;
+	height: 500px;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #004C00;
+}
+
+.description {
+	font-family:cursive;
+	background-color:black;
+	color:pink;
+}
+
+ul {
+	list-style-type:circle;
+}
